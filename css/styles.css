@@ -1,0 +1,89 @@
+/* Meine Styles */
+/*body{
+background-image: url(blumen2.jpg);
+
+}*/
+
+body{
+    background-color: #c7c7c7;
+}
+    
+
+.tabelle_zelle_beschriftung {
+	background-color: #00B8E6;
+
+}
+
+
+.tabelle_zelle_inhalt {
+	background-color: #f00e9e9;
+}
+
+.tabelle_treffer_beschriftung {
+	background-color: #1AD1FF;
+	color: #fff;
+}
+
+.tabelle_treffer_gerade {
+	background-color: #d0d0d0;
+}
+
+.tabelle_treffer_gerade:hover {
+	background-color: #1CFF1C;
+}
+
+.tabelle_treffer_gerade a:link {
+	text-decoration:none;
+}
+
+.tabelle_treffer_gerade a:hover {
+	text-decoration:underline;
+}
+
+.tabelle_treffer_ungerade {
+	background-color: #f0f0f0;
+}
+
+.tabelle_treffer_ungerade:hover {
+	background-color: #D174FF;
+}
+
+.tabelle_treffer_ungerade a:link {
+	text-decoration:none;
+}
+
+.tabelle_treffer_ungerade a:hover {
+	text-decoration:underline;
+}
+
+#container_form_details_neu {
+	float: left;
+}
+
+#container_form_details_edit {
+	float: left;
+}
+
+#container_form_details_delete {
+}
+
+#container_form_bearbeiten_abbrechen {
+	float: left;
+}
+
+#container_form_bearbeiten_speichern {
+}
+
+#container_form_loeschen_abbrechen {
+	float: left;
+}
+
+#container_form_loeschen_ja {
+}
+
+#container_form_neu_abbrechen {
+	float: left;
+}
+
+#container_form_neu_speichern {
+}
