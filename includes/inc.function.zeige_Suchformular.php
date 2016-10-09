@@ -11,7 +11,7 @@ function zeige_Suchformular( $suchbegriff ) {
             '">' . "\n";
     echo '<p>Kategorie: <input type="radio" name="kategorie" value="name_deutsch" checked> Deutsch
 <input type="radio" name="kategorie" value="name_latein"> Latein</input></p>';
-    echo '<p>Alle Blumen anzeigen Prozentzeichen(%) als Suchberiff eingeben.</p>';
+    echo '<p>Alle Blumen anzeigen: Prozentzeichen(%) als Suchbegriff eingeben.</p>';
     echo '  <input type="submit" class="btn btn-primary" value="Suche starten">' . "\n";
     echo '</form>';
 }
