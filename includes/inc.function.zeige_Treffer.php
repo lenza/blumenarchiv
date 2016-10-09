@@ -33,7 +33,7 @@ function zeige_Treffer( $conn, $suchbegriff ) {
 				'WHERE ' .$kategorie. ' LIKE ?';
 		if ( $result = $conn->prepare( $sql ) ) {
 			
-			$result->bind_param( 's', '$suchbegriff' );
+			$result->bind_param( 's', $suchbegriff );
 	
 			$result->execute();
 			$result->bind_result( $anzahl_datensaetze_treffer );
