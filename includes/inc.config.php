@@ -20,7 +20,7 @@ define( 'DB_PASS',     ''         );
 define( 'INPUT_TEXT_SIZE', 60 );
 
 // Wenn mehr als MAX_TREFFER_PRO_SEITE gefunden, wird die Anzahl per LIMIT begrenzt
-define( 'MAX_TREFFER_PRO_SEITE', 10 );
+define( 'MAX_TREFFER_PRO_SEITE', 100 );
 
 // Image Path für Bilder auf dem Server
 define( 'IMAGE_PATH', '/home/shira/public_html/img/');
