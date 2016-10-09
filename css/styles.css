@@ -29,7 +29,7 @@ body{
 }
 
 .tabelle_treffer_gerade:hover {
-	background-color: #1CFF1C;
+	background-color: #00ff7f;
 }
 
 .tabelle_treffer_gerade a:link {
@@ -45,7 +45,7 @@ body{
 }
 
 .tabelle_treffer_ungerade:hover {
-	background-color: #D174FF;
+	background-color: #00ff7f;
 }
 
 .tabelle_treffer_ungerade a:link {
